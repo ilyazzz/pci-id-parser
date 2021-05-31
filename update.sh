@@ -1,5 +1,5 @@
 #!/bin/sh
-pci-parser &&
+~/.local/bin/pci-parser &&
 patch < patch.diff &&
 
 mv devices.json out &&
